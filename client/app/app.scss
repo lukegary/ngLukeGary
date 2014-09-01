@@ -14,6 +14,30 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
         text-align: center;
     }
 }
+
+#spinner {
+  -webkit-animation: rotation 45s infinite linear; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    -webkit-transform: rotate(359deg); } 
+}
+
+.video-placeholder {
+    background: url(/assets/images/viggle-rewards.png) no-repeat;
+    padding: 84px 35px 94px 36px;
+}
+
+
+
+.whosay{
+    background: url('/assets/images/whosay_after.png') no-repeat;
+    height: 800px;
+}
+
 /**
  * App-wide Styles
  */
@@ -83,7 +107,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -117,17 +141,21 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #52a7e0;
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 header img {
     display: block;
     margin: 0 auto 20px;
+}
+
+header .img-responsive {
+        max-width: 300px;
 }
 
 header .intro-text .name {
@@ -220,6 +248,19 @@ section.success {
 }
 
 @media(max-width:767px) {
+    .whosay {
+        background-position: center;
+    }
+    .video-placeholder{
+        background-position: center;
+    }
+    .viggle {
+        
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        text-align: center;
+}
     section {
         padding: 75px 0;
     }
@@ -281,6 +322,7 @@ section.success {
 }
 
 @media(min-width:767px) {
+
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }

@@ -1,24 +1,21 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
-
-
 <!-- Header -->
 <header>
     <div class="container" id="page-top">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="assets/images/profile.png" alt="">
+                <img class="img-responsive" id="spinner" src="assets/images/profile.png" alt="">
                 <div class="intro-text">
                     <span class="name">Luke Gary</span>
                     <hr class="star-light">
-                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                    <span class="skills">Web Developer - User Experience Designer</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
 <section id="portfolio">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Portfolio</h2>
@@ -26,70 +23,32 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+            <section class="portfolio-item whosay">
+
+            </section>
+
+            <section class="success portfolio-item viggle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                            <div class="video-placeholder">
+                                <video width="243" height="426" autoplay loop src="assets/images/viggle.mp4">
+                                    <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+                                    <source type="video/mp4" src="assets/images/viggle.mp4">
+                                    <!-- Flash fallback for non-HTML5 browsers without JavaScript -->
+                                </video>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
+                            <div class="caption">At Viggle, I was the principal engineer in charge of the entire codebase surrounding Viggle Rewards and how they were served. During my time there I worked with the platform team to implement a 2-factor identification that helped to reduce the number of fraud rewards.
+                            </div>
                         </div>
                     </div>
-                    <img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="assets/images/portfolio/cake.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="assets/images/portfolio/circus.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="assets/images/portfolio/game.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="assets/images/portfolio/safe.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="">
-                </a>
-            </div>
+                </div>
+            </section>
         </div>
     </div>
 </section>
-
 <!-- About Section -->
 <section class="success" id="about">
     <div class="container">
@@ -114,7 +73,6 @@
         </div>
     </div>
 </section>
-
 <!-- Contact Section -->
 <section id="contact">
     <div class="container">
@@ -169,7 +127,6 @@
         </div>
     </div>
 </section>
-
 <!-- Footer -->
 <footer class="text-center">
     <div class="footer-above">
@@ -178,7 +135,7 @@
                 <div class="footer-col col-md-4">
                     <h3>Location</h3>
                     <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <br>Beverly Hills, CA 90210</p>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Around the Web</h3>
@@ -217,14 +174,12 @@
         </div>
     </div>
 </footer>
-
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visble-sm" >
     <a class="btn btn-primary" ng-href="#"  ng-click="scrollTo('page-top')">
         <i class="fa fa-chevron-up"></i>
     </a>
 </div>
-
 <!-- Portfolio Modals -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
