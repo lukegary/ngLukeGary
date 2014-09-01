@@ -8,14 +8,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Luke Gary</a>
+            <a class="navbar-brand" ng-href="#" ng-click="scrollTo('page-top')">Luke Gary</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div collapse="isCollapsed" class="navbar-collapse collapse" id="navbar-main">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
-                    <a href="#page-top"></a>
+                    <a ng-click="gotoTop()"></a>
                 </li>
                 <li class="page-scroll">
                     <a href="#portfolio">Portfolio</a>
