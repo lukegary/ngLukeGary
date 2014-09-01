@@ -26,7 +26,10 @@ $light-blue: #D7EBFF;
   to {
     -webkit-transform: rotate(359deg); } 
 }
-
+#about {
+    color: black;
+    background-color: $light-blue;
+}
 .video-placeholder {
     background: url(/assets/images/viggle-rewards.png) no-repeat;
     padding: 84px 35px 94px 36px;
@@ -337,9 +340,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px $dark-blue;
     font-size: 20px;
-    color: #fff;
+    color: black;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -348,8 +351,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
+    border: solid 2px $dark-blue;
+    color: $dark-blue;
     background: #fff;
 }
 
