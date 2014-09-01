@@ -27,7 +27,7 @@ $light-blue: #D7EBFF;
     -webkit-transform: rotate(359deg); } 
 }
 #about {
-    color: black;
+    color: white;
     background-color: $dark-blue;
 }
 .video-placeholder {
@@ -340,7 +340,7 @@ section.success {
     margin-top: 15px;
     border: solid 2px $light-blue;
     font-size: 20px;
-    color: black;
+    color: white;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
