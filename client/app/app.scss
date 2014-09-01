@@ -40,6 +40,8 @@ $light-blue: #D7EBFF;
 }
 .netspend {
     background: url(/assets/images/netspend.png) no-repeat;
+        height: 800px;
+        background-size: cover;
 }
 
 
@@ -259,9 +261,6 @@ section.success {
 }
 
 @media(max-width:767px) {
-    .netspend {
-        background: url(/assets/images/netspend.png) no-repeat;
-    }
     .video-placeholder{
         background-position: center;
     }
@@ -332,7 +331,6 @@ section.success {
 }
 
 @media(min-width:767px) {
-
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
