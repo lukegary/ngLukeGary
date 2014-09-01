@@ -28,7 +28,7 @@ $light-blue: #D7EBFF;
 }
 #about {
     color: black;
-    background-color: $light-blue;
+    background-color: $dark-blue;
 }
 .video-placeholder {
     background: url(/assets/images/viggle-rewards.png) no-repeat;
@@ -338,7 +338,7 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px $dark-blue;
+    border: solid 2px $light-blue;
     font-size: 20px;
     color: black;
     background: 0 0;
@@ -349,7 +349,7 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px $dark-blue;
+    border: solid 2px black;
     color: $dark-blue;
     background: #fff;
 }
