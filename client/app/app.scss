@@ -263,6 +263,9 @@ section.success {
 }
 
 @media(max-width:767px) {
+    .push-top {
+        margin-top: 50px;
+    }
     .video-placeholder{
         background-position: center;
     }
@@ -271,7 +274,7 @@ section.success {
         float: none;
         vertical-align: top;
         text-align: center;
-}
+    }
     section {
         padding: 75px 0;
     }
