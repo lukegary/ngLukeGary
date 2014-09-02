@@ -18,13 +18,13 @@
                     <a ng-click="gotoTop()"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#" ng-click="scrollTo('portfolio')">Portfolio</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#" ng-click="scrollTo('about')">About</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#" ng-click="scrollTo('contact')">Contact</a>
                 </li>
 
                 <li ng-hide="isLoggedIn()" ng-class="{active: isActive('/signup')}"><a href="/signup">Sign up</a>
