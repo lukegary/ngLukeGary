@@ -32,6 +32,24 @@ $light-blue: #D7EBFF;
     color: white;
     background-color: $dark-blue;
 }
+.portfolio-title {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+.whosay-landing-title {
+    margin-left: 60px;
+    margin-right: 120px;
+}
+.list-title {
+    font-weight: bold;
+    margin: 0px;
+}
+.tools-list {
+    padding-left: 20px;
+    font-size: 18px;
+}
 .video-placeholder {
     background: url(/assets/images/viggle-rewards.png) no-repeat;
     padding: 84px 35px 94px 36px;
@@ -42,15 +60,15 @@ $light-blue: #D7EBFF;
 }
 .netspend {
     background: url(/assets/images/netspend.png) no-repeat;
-        height: 800px;
-        background-size: cover;
+    height: 800px;
+    background-size: cover;
 }
 
 
 .whosay{
     background: url('/assets/images/whosay_after.png') no-repeat;
     height: 800px;
-        background-size: cover;
+    background-size: cover;
 }
 
 /**
