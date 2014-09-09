@@ -35,12 +35,22 @@ $light-blue: #D7EBFF;
 .portfolio-title {
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 3px solid black;
-    padding-bottom: 10px;
 }
-.whosay-landing-title {
-    margin-left: 60px;
-    margin-right: 120px;
+hr.whosay-landing-hr {
+    border-top: solid;
+    max-width: 400px;
+}
+hr.whosay-channels-hr {
+    border-top: solid;
+    max-width: 340px;
+}
+hr.viggle-hr {
+    border-top: solid;
+    max-width: 150px;
+}
+hr.netspend-hr {
+    border-top: solid;
+    max-width: 200px;
 }
 .list-title {
     font-weight: bold;
@@ -55,7 +65,7 @@ $light-blue: #D7EBFF;
     padding: 84px 35px 94px 36px;
 
 }
-.viggle {
+.odd {
     background-color: $light-blue;
 }
 .netspend {
@@ -64,10 +74,15 @@ $light-blue: #D7EBFF;
     background-size: cover;
 }
 
-
-.whosay{
+.whosay-landing {
     background: url('/assets/images/whosay_after.png') no-repeat;
     height: 800px;
+    background-size: cover;
+}
+
+.whosay-channels {
+    background: url('/assets/images/whosay_channels.png') no-repeat;
+    height: 1076px;
     background-size: cover;
 }
 
@@ -270,6 +285,10 @@ section {
     padding: 100px 0;
 }
 
+section.portfolio {
+    padding-bottom: 0;
+}
+
 section h2 {
     margin: 0;
     font-size: 3em;
@@ -304,7 +323,7 @@ section.success {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    padding: 50px 0;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -351,12 +370,6 @@ section.success {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .btn-outline {
